@@ -22,7 +22,8 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.css",
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/Testcss.css"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.js",
@@ -116,5 +117,8 @@
       }
     }
   },
-  "defaultProject": "my-app"
+  "defaultProject": "my-app",
+  "cli": {
+    "analytics": "c914b5da-3ec7-4cc2-8db1-3773c4cb052a"
+  }
 }
